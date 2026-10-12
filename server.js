@@ -22,6 +22,7 @@ const app = express();
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   'http://localhost:3000',
+  "https://ecohub-frontend-zeta.vercel.app",
 ].filter(Boolean);
 
 app.use(cors({
